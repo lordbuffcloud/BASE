@@ -6,12 +6,17 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
+obfuscate.py
 node_modules
 dist
 dist-ssr
 *.local
-
+# Ignore original Python files in glxy folder
+src/glxy7/*.py
+# Don't ignore __init__.py files
+!src/glxy7/__init__.py
+# Don't ignore placeholder files
+!src/glxy7/*_placeholder.py
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
