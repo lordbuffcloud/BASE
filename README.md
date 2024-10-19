@@ -36,7 +36,7 @@ BASE (Base Layout Analyzer) is a cutting-edge tool that revolutionizes base desi
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/base-project.git
+   git clone https://github.com/lordbuffcloud/base-project.git
    ```
 
 2. Set up a virtual environment and install dependencies:
